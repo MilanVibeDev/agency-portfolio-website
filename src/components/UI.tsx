@@ -60,11 +60,11 @@ export function CTA({ services = false }: { services?: boolean }) {
         </h2>
         <p>
           {services
-            ? "Let’s find the right starting point. Your first discovery call is on us."
-            : "Let’s turn that “what if” into your next big thing."}
+            ? "Explore how a project conversation could begin in this interactive demo."
+            : "Try the concept contact flow. No messages or bookings are sent."}
         </p>
         <Button>
-          {services ? "Book a free discovery call" : "Let’s work together"}
+          {services ? "Explore the contact demo" : "Start a project"}
         </Button>
       </div>
       <span className="cta-flower" aria-hidden="true">

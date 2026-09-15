@@ -30,7 +30,7 @@ export function HeroVisual() {
     <div
       className="hero-art"
       role="img"
-      aria-label="Creative project collage: sculptural blue ribbon, a brand design card, and a rising growth chart"
+      aria-label="Concept project collage: sculptural blue ribbon, brand design card, and a responsive three-page website"
     >
       <div className="art-grid" />
       <span className="art-caption">
@@ -64,12 +64,12 @@ export function HeroVisual() {
         <div>
           <span className="growth-icon">↗</span>
           <span>
-            Made for growth<small>Good design. Real impact.</small>
+            Built for this concept<small>Responsive by design.</small>
           </span>
         </div>
         <div className="growth-bottom">
           <strong>
-            +42<span>%</span>
+            3<span> pages</span>
           </strong>
           <svg viewBox="0 0 125 52" aria-hidden="true">
             <path
@@ -86,7 +86,7 @@ export function HeroVisual() {
             />
           </svg>
         </div>
-        <small>More connections. More possibilities.</small>
+        <small>Home · Services · About & Contact</small>
       </div>
       <div className="art-bottom">
         <span>IDEAS → IMPACT</span>

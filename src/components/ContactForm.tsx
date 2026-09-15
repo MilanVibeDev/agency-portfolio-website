@@ -56,17 +56,22 @@ export default function ContactForm() {
   return success ? (
     <div className="form-success" role="status">
       <span>✓</span>
-      <h3>Looking good, {form.name.trim().split(" ")[0]}!</h3>
+      <h3>Demo complete. Looking good!</h3>
       <p>
-        Your demo inquiry is complete. This portfolio form doesn’t send or store
-        messages.
+        You’ve reached the end of the sample contact flow. Your entries passed
+        validation. No inquiry was sent, no call was booked, and nothing was saved.
       </p>
       <button className="button" onClick={() => setSuccess(false)}>
-        Back to your inquiry ↗
+        Edit the demo brief ↗
       </button>
     </div>
   ) : (
     <form ref={formRef} className="contact-form" onSubmit={submit} noValidate>
+      <div className="form-intro">
+        <span className="demo-label">Interactive demo</span>
+        <h3>Try a sample project brief</h3>
+        <p>Use made-up details to explore the contact experience.</p>
+      </div>
       <div className="form-grid">
         {(["name", "email", "company"] as const).map((field) => (
           <label key={field} htmlFor={field}>
@@ -157,7 +162,7 @@ export default function ContactForm() {
           <br />* Required fields
         </p>
         <button className="button" type="submit">
-          Send inquiry <span>↗</span>
+          Preview demo confirmation <span>↗</span>
         </button>
       </div>
     </form>

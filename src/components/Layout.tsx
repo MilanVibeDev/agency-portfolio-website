@@ -56,7 +56,7 @@ export function Navbar() {
             <NavLink to="/services">Services</NavLink>
             <NavLink to="/about">About</NavLink>
             <Link to="/about#contact" className="button nav-cta">
-              Book a call <span>↗</span>
+              Contact us <span>↗</span>
             </Link>
           </nav>
         </div>
@@ -85,24 +85,9 @@ export function Footer() {
             <Link to="/about">About & contact</Link>
           </div>
           <div className="footer-contact">
-            <a href="mailto:hello@novahaus.studio">hello@novahaus.studio ↗</a>
-            <span>Belgrade, Serbia · Working everywhere</span>
-            <div className="socials">
-              <a
-                href="https://www.instagram.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Instagram ↗
-              </a>
-              <a
-                href="https://www.linkedin.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                LinkedIn ↗
-              </a>
-            </div>
+            <strong>Explore the contact demo</strong>
+            <span>No bookings or messages are sent.</span>
+            <Link to="/about#contact" className="text-link">Try the demo ↗</Link>
           </div>
         </div>
         <div className="footer-bottom">

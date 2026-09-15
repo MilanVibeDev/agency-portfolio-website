@@ -27,7 +27,7 @@ export default function About() {
         </span>
       </section>
       <section className="container story-section">
-        <p className="eyebrow">OUR STORY</p>
+        <p className="eyebrow">THE FICTIONAL STUDIO STORY</p>
         <div>
           <h2>
             Good design shouldn’t
@@ -50,13 +50,13 @@ export default function About() {
       </section>
       <section
         className="container stats-grid"
-        aria-label="Fictional agency statistics"
+        aria-label="Website project facts"
       >
         {[
-          ["75+", "Projects completed"],
-          ["40+", "Clients"],
-          ["5", "Years of experience"],
-          ["98%", "Client satisfaction"],
+          ["3", "Responsive pages"],
+          ["Mobile", "Responsive interface"],
+          ["Accessible", "Demo contact flow"],
+          ["Original", "Brand and website mockups"],
         ].map(([value, label]) => (
           <div key={label}>
             <strong>{value}</strong>
@@ -99,7 +99,7 @@ export default function About() {
       <section className="team-section">
         <div className="container section">
           <SectionHeading
-            label="THE PEOPLE BEHIND THE PIXELS"
+            label="MEET THE FICTIONAL TEAM"
             title={
               <>
                 Nice to meet you.
@@ -119,6 +119,7 @@ export default function About() {
                   <small>NOVAHAUS / 0{index + 1}</small>
                 </div>
                 <h3>{person.name}</h3>
+                <span className="demo-label">Fictional team member</span>
                 <span className="team-role">{person.role}</span>
                 <p>{person.description}</p>
               </article>
@@ -130,7 +131,7 @@ export default function About() {
         <div className="contact-copy">
           <p className="eyebrow">
             <span />
-            LET’S MAKE SOMETHING GOOD
+            INTERACTIVE CONTACT DEMO
           </p>
           <h2>
             Your next chapter
@@ -138,27 +139,25 @@ export default function About() {
             starts with <span className="accent-text">hello.</span>
           </h2>
           <p>
-            Have a clear brief or just the spark of an idea? Tell us a little
-            about it. We’d love to hear what you’re thinking.
+            Try a sample project brief to explore the form and its confirmation.
+            This is a portfolio demonstration; nothing is sent, booked, or stored.
           </p>
           <div className="contact-details">
             <div>
-              <span>WRITE TO US</span>
-              <a href="mailto:hello@novahaus.studio">
-                hello@novahaus.studio ↗
-              </a>
+              <span>DEMO EMAIL · NOT A CONTACT CHANNEL</span>
+              <p>hello@novahaus.example</p>
             </div>
             <div>
-              <span>GIVE US A CALL</span>
-              <a href="tel:+381601234567">+381 60 123 4567 ↗</a>
+              <span>PHONE PLACEHOLDER · NOT A REAL NUMBER</span>
+              <p>+381 XX XXX XXXX</p>
             </div>
             <div>
-              <span>OUR LITTLE CORNER OF THE WORLD</span>
+              <span>FICTIONAL STUDIO LOCATION</span>
               <p>Belgrade, Serbia</p>
             </div>
           </div>
           <p className="contact-note">
-            Fictional team, contact details, and studio statistics.
+            All agency identities and contact details are fictional.
             <br />
             Made as a creative agency portfolio concept.
           </p>

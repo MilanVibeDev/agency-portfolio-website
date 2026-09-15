@@ -37,26 +37,15 @@ export default function Home() {
           </div>
 
           <div className="hero-proof">
-            <div className="avatar-stack">
-              <span>MH</span>
-              <span>LV</span>
-              <span>SC</span>
-            </div>
-
-            <div>
-              <span className="stars" aria-label="5 stars">
-                ★★★★★
-              </span>
-              <p>Small team. Big things for your business.</p>
-            </div>
+            <p>3 responsive pages · Original mockups · Demo contact flow</p>
           </div>
         </div>
 
         <HeroVisual />
       </section>
 
-      <section className="container trust" aria-label="Fictional clients">
-        <p>BIG AMBITIONS. GOOD COMPANY.</p>
+      <section className="container trust" aria-label="Fictional brand concepts">
+        <p>FICTIONAL BRANDS, CREATED FOR THIS CONCEPT</p>
 
         <div className="client-logos">
           <span className="luma-logo">
@@ -71,7 +60,7 @@ export default function Home() {
         </div>
 
         <span className="trust-note">
-          Trusted by 50+ businesses in our fictional studio story
+          Original brand examples for a design portfolio. No client relationships implied.
         </span>
       </section>
 
@@ -161,7 +150,7 @@ export default function Home() {
                 and an easier path to the next reservation.
               </p>
               <span className="result-tag">
-                ↗ +42% more online reservations
+                ↗ Designed to simplify the reservation journey
               </span>
             </article>
 
@@ -187,14 +176,13 @@ export default function Home() {
                 turn local interest into a growing community.
               </p>
               <span className="result-tag">
-                ↗ 118 trial signups in 30 days
+                ↗ Designed to make trial signups easier
               </span>
             </article>
           </div>
 
           <p className="project-disclaimer">
-            Concept projects. Results are illustrative, not measured client
-            outcomes.
+            Concept projects showing design intentions, not measured business outcomes.
           </p>
         </div>
       </section>
@@ -259,7 +247,7 @@ export default function Home() {
 
       <section className="container section">
         <SectionHeading
-          label="KIND WORDS"
+          label="FICTIONAL TESTIMONIAL LAYOUT"
           title={
             <>
               Good work starts with
@@ -297,7 +285,7 @@ export default function Home() {
             ],
           ].map(([quote, name, role, initials]) => (
             <figure className="testimonial" key={name}>
-              <span className="stars">★★★★★</span>
+              <span className="demo-label">Sample quote · Fictional person</span>
               <blockquote>{quote}</blockquote>
               <figcaption>
                 <span className="person-avatar">{initials}</span>
